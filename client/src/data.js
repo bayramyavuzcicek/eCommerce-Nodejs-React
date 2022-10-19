@@ -20,4 +20,24 @@ export const sliderItems = [
         desc : "DON'T COMPROMIS ON STYLE! GET FLAT 30% OF FOR NEW ARRIVALS",
         bg: "fbf0f4"
     }
+];
+
+
+export const categories = [
+
+    {
+        id:1,
+        img:"https://images.pexels.com/photos/10117904/pexels-photo-10117904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        title:"SHIRT STYLE"
+    },
+    {
+        id:2,
+        img:"https://images.pexels.com/photos/10117904/pexels-photo-10117904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        title:"LOUNGEWEAR LOVE"
+    },
+    {
+        id:3,
+        img:"https://images.pexels.com/photos/10117904/pexels-photo-10117904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        title:"LIGHT JACKETS"
+    },
 ]
