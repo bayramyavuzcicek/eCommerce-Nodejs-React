@@ -6,8 +6,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import RoomIcon from '@mui/icons-material/Room';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import { mobile } from "../responsive";
 const Container = styled.div`
     display: flex;
+    ${mobile({flexDirection:"column"})}
 
 `
 
@@ -20,7 +22,7 @@ const Left = styled.div`
 `
 
 const Logo = styled.h1`
-   
+    ${mobile({textAlign:"center"})}
 `
 
 const Description = styled.p`
@@ -29,6 +31,7 @@ const Description = styled.p`
 
 const SocialContainer = styled.div`
     display: flex;
+    ${mobile({justifyContent:"center"})}
     
 `
 
@@ -52,6 +55,7 @@ const SocialIcon = styled.div`
 const Center = styled.div`
     flex:1;
     padding: 20px;
+    ${mobile({display:"none"})}
 `
 const Title = styled.h3`
     margin-bottom: 30px;
@@ -73,6 +77,7 @@ const ListItem = styled.li`
 const Right = styled.div`
     flex:1;
     padding: 20px; 
+    ${mobile({backgroundColor:"#f7f5f5"})}
 `
 const ContactItem = styled.div`
     margin-bottom: 20px;

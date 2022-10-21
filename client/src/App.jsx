@@ -5,8 +5,9 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Cart from "./pages/Cart";
 
+
 function App() {
-  return <Cart/>;
+  return <Login/>;
 }
 
 export default App;
