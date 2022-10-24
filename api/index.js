@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+import cors from 'cors' ; 
 
 import authRoutes from './routes/auth.js'
 import userRoutes from './routes/user.js'
@@ -9,7 +10,7 @@ import orderRoutes from './routes/order.js'
 import cartRoutes from './routes/cart.js'
 const app = express();
 dotenv.config();
-
+app.use(cors());
 
 //database conneciton
 const connection = async()=>{
