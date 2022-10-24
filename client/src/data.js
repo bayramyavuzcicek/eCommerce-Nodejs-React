@@ -35,7 +35,7 @@ export const categories = [
         img:"https://images.pexels.com/photos/10117904/pexels-photo-10117904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         title:"LOUNGEWEAR LOVE"
     },
-    {
+    { 
         id:3,
         img:"https://images.pexels.com/photos/10117904/pexels-photo-10117904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         title:"LIGHT JACKETS"
